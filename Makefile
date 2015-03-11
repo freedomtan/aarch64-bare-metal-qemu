@@ -23,4 +23,4 @@ test64.bin: test64.elf
 	$(CROSS_PREFIX)objcopy -O binary $< $@
 
 clean:
-	rm test65.bin test64.elf startup64.o test64.o
+	rm -f test65.bin test64.elf startup64.o test64.o
